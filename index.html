@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Valentine ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="page1" class="page active">
+        <h1>ARE YOU MY VALENTINE?</h1>
+        <div class="btn-group">
+            <button class="yes-btn" onclick="showPage('page2')">YES</button>
+            <button class="no-btn" onclick="showPage('sikes-page')">NO</button>
+        </div>
+    </div>
+
+    <div id="sikes-page" class="page">
+        <h1>Sikes, very funny! 😂</h1>
+        <p>Now choose... are you my valentine?</p>
+        <button class="yes-btn" onclick="showPage('page2')">YES</button>
+    </div>
+
+    <div id="page2" class="page">
+        <div class="bunny-container">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueXpueXpueXpueXpueXpueXpueXpueXpueXpueXpueXpueCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L4lvBps6shv3y/giphy.gif" alt="Cute Bunny" width="200">
+            <h2>Thank you! 🌸</h2>
+            <button onclick="showPage('page3')">Next ❤️</button>
+        </div>
+    </div>
+
+    <div id="page3" class="page">
+        <h2>Our treasure</h2>
+        <div class="slider-wrapper">
+            <div class="slides-container">
+                <div class="slide"><img src="photo1.jpg" alt="Memory 1"></div>
+                <div class="slide"><img src="photo2.jpg" alt="Memory 2"></div>
+                <div class="slide"><img src="photo3.jpg" alt="Memory 3"></div>
+                <div class="slide"><img src="photo4.jpg" alt="Memory 4"></div>
+                <div class="slide"><img src="photo5.jpg" alt="Memory 5"></div>
+            </div>
+            <div class="scroll-hint">Swipe to see more ➔</div>
+        </div>
+        <button onclick="showPage('page4')">This is for you</button>
+    </div>
+
+    <div id="page4" class="page">
+        <div class="letter">
+            <h2>Hey Mrs Munjiyah Muzhingi</h2>
+            <p class="subtitle">(Ts sounds awesome when I say it 😭)</p>
+            
+            <p>I just created this and it took me like a lot of time to work out. My Friend Gemini will say it's easy, but of course he's AI, my assistant.</p>
+
+            <p>But, I'm sorry for keeping you waiting and I would like you to know that I wanted to put all my imagination into this and my love just to make you feel special today. I don't really know why we celebrate Valentine's, because everyday is amazing when I'm with you. Just having you calls for a special occasion. Cauz you're special to me. But if I had control over time I would've made an app dedicated to you, but I can't (though I will 😈).</p>
+
+            <p>I want to thank you for being mine. There's no possible way of thanking you enough. But I guess I thought ts would be a good enough try. I'm not intending to use this as an apology for whatever happened whatsoever. I just want you to know that you're special to me. I can't use words. I can't even use feelings. I'm growing and prolly losing touch of the person I once was. Unknowingly misinterpreting ts change as adaptation. But all that doesn't change anything.</p>
+
+            <p class="signature">I love you, Fafa<br>
+            <strong>T.Muzhingi</strong></p>
+        </div>
+        <button onclick="showPage('final-page')">Don't forget this here ✨</button>
+    </div>
+
+    <div id="final-page" class="page">
+        <h1>I Love You! ❤️</h1>
+        <p>Check your messages... <br>I've sent a little something extra just for you.</p>
+        <div class="bunny-container">
+            <span style="font-size: 50px;">🎁✨</span>
+        </div>
+    </div>
+
+</body>
+</html>
+
